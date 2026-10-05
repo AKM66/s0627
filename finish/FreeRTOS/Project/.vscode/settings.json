@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bsp_usart3.h": "c",
+        "string.h": "c",
+        "esp8266_handler.h": "c",
+        "bsp_oled.h": "c",
+        "esp8266_init.h": "c",
+        "bsp_ledbuzzer.h": "c",
+        "freertos.h": "c"
+    }
+}

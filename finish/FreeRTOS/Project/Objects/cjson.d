@@ -1,0 +1,9 @@
+.\objects\cjson.o: ..\Source\cJSON\cJSON.c
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\string.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdio.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\math.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdlib.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\float.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\limits.h
+.\objects\cjson.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\ctype.h
+.\objects\cjson.o: ..\Source\cJSON\cJSON.h

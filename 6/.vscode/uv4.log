@@ -1,0 +1,68 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin'
+Build target 'Target 1'
+Note: source file '.\FreeRTOS\queue.c' - object file renamed from '.\output\queue.o' to '.\output\queue_1.o'.compiling BSP_ESP8266.c...
+BSP\BSP_Buzzer.h(25): warning:  #47-D: incompatible redefinition of macro "RCC_Buzzer"  (declared at line 7)
+  #define RCC_Buzzer			(RCC_APB2Periph_GPIOF)
+BSP\BSP_Buzzer.h(26): warning:  #47-D: incompatible redefinition of macro "GPIO_PORT_Buzzer"  (declared at line 8)
+  #define GPIO_PORT_Buzzer	GPIOF
+BSP\BSP_Buzzer.h(27): warning:  #47-D: incompatible redefinition of macro "GPIO_PIN_Buzzer"  (declared at line 9)
+  #define GPIO_PIN_Buzzer		(GPIO_Pin_11)
+BSP\BSP_ESP8266.c(70): warning:  #223-D: function "USART1_Send" declared implicitly
+          USART1_Send(bufAddr,bufLen);
+BSP\BSP_ESP8266.c(428): warning:  #223-D: function "show_WiFi_Connected" declared implicitly
+  								show_WiFi_Connected();
+BSP\BSP_ESP8266.c(441): warning:  #223-D: function "show_WiFi_disConnect" declared implicitly
+  								show_WiFi_disConnect();
+BSP\BSP_ESP8266.c(454): warning:  #223-D: function "show_WiFi_Lost" declared implicitly
+  						    show_WiFi_Lost();
+BSP\BSP_ESP8266.c(458): warning:  #223-D: function "show_WiFi_busy" declared implicitly
+  								show_WiFi_busy();
+BSP\BSP_ESP8266.c(463): warning:  #223-D: function "show_WiFi_noResp" declared implicitly
+  								show_WiFi_noResp();
+BSP\BSP_ESP8266.c(490): warning:  #223-D: function "show_MQTT_Connect_result" declared implicitly
+  				show_MQTT_Connect_result(flag);
+BSP\BSP_ESP8266.c: 10 warnings, 0 errors
+compiling bsp.c...
+BSP\BSP_Buzzer.h(25): warning:  #47-D: incompatible redefinition of macro "RCC_Buzzer"  (declared at line 7)
+  #define RCC_Buzzer			(RCC_APB2Periph_GPIOF)
+BSP\BSP_Buzzer.h(26): warning:  #47-D: incompatible redefinition of macro "GPIO_PORT_Buzzer"  (declared at line 8)
+  #define GPIO_PORT_Buzzer	GPIOF
+BSP\BSP_Buzzer.h(27): warning:  #47-D: incompatible redefinition of macro "GPIO_PIN_Buzzer"  (declared at line 9)
+  #define GPIO_PIN_Buzzer		(GPIO_Pin_11)
+BSP\bsp.c(55): warning:  #223-D: function "PRINTF_LOG" declared implicitly
+      PRINTF_LOG("\r\n-------------------------------------------\r\n");
+BSP\bsp.c(76): warning:  #223-D: function "BSP_LEDBuzzer_Init" declared implicitly
+  	BSP_LEDBuzzer_Init();
+BSP\bsp.c(79): warning:  #223-D: function "KEY_Init" declared implicitly
+  	KEY_Init(COMMON_Show_Info,ReconfigWIFI);
+BSP\bsp.c(81): warning:  #223-D: function "USART1_Init" declared implicitly
+  	USART1_Init(BSP_USART_BAUDRATE_115200);
+BSP\bsp.c(82): warning:  #223-D: function "USART3_Init" declared implicitly
+  	USART3_Init(BSP_USART_BAUDRATE_115200);
+BSP\bsp.c(84): warning:  #223-D: function "PRINTF_LOG" declared implicitly
+  	PRINTF_LOG("\r\n===========================================\r\n");
+BSP\bsp.c: 9 warnings, 0 errors
+linking...
+.\output\project.axf: Error: L6218E: Undefined symbol USART1_Send (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol USART3_SendData (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol netDeviceInfo_t (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_MQTT_Connect_result (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_WiFi_Connected (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_WiFi_Lost (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_WiFi_busy (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_WiFi_disConnect (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol show_WiFi_noResp (referred from bsp_esp8266.o).
+.\output\project.axf: Error: L6218E: Undefined symbol EXTI_ClearITPendingBit (referred from bsp_key_exti.o).
+.\output\project.axf: Error: L6218E: Undefined symbol EXTI_GetITStatus (referred from bsp_key_exti.o).
+.\output\project.axf: Error: L6218E: Undefined symbol EXTI_Init (referred from bsp_key_exti.o).
+.\output\project.axf: Error: L6218E: Undefined symbol PAin (referred from bsp_dht11.o).
+.\output\project.axf: Error: L6218E: Undefined symbol BSP_LEDBuzzer_Init (referred from bsp.o).
+.\output\project.axf: Error: L6218E: Undefined symbol PRINTF_LOG (referred from bsp.o).
+.\output\project.axf: Error: L6218E: Undefined symbol USART1_Init (referred from bsp.o).
+.\output\project.axf: Error: L6218E: Undefined symbol USART3_Init (referred from bsp.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 17 error messages.
+".\output\project.axf" - 17 Error(s), 19 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:04

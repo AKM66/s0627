@@ -1,0 +1,12 @@
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTFormat.c
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\StackTrace.h
+.\objects\mqttformat.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdio.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTPacket.h
+.\objects\mqttformat.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdint.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTConnect.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTPublish.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTSubscribe.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTUnsubscribe.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTFormat.h
+.\objects\mqttformat.o: ..\Source\MQTTPacket\src\MQTTPacket.h
+.\objects\mqttformat.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\string.h

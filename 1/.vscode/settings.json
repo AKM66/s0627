@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "dsgshow.h": "c",
+        "bsp_timer.h": "c",
+        "LED.C": "cpp",
+        "OLED.C": "cpp"
+    }
+}

@@ -1,0 +1,12 @@
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTUnsubscribeClient.c
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTPacket.h
+.\objects\mqttunsubscribeclient.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdint.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTConnect.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTPublish.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTSubscribe.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTUnsubscribe.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTFormat.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\StackTrace.h
+.\objects\mqttunsubscribeclient.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\stdio.h
+.\objects\mqttunsubscribeclient.o: ..\Source\MQTTPacket\src\MQTTPacket.h
+.\objects\mqttunsubscribeclient.o: D:\KeilMDK\Keil_v5\ARM\arm5_compiler\Bin\..\include\string.h

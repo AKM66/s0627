@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "dsgshow.h": "c",
+        "bsp_timer.h": "c",
+        "LED.C": "cpp",
+        "OLED.C": "cpp",
+        "bsp_uart.h": "c",
+        "stm32f10x_it.h": "c",
+        "bsp_digitaltube.h": "c",
+        "bsp_ds18b20.h": "c",
+        "queue.h": "c",
+        "bsp_esp8266.h": "c"
+    }
+}

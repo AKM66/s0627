@@ -1,0 +1,18 @@
+{
+    "username": "6860926432771f177b46e818_stmSF",
+    "password": "c8cbaecaa06df1abd1034e8a925009aae6f64dcdf7974a1e3c22dc1847cd2c3e",
+    "clientId": "6860926432771f177b46e818_stmSF_0_0_2025062901",
+    "hostname": "eb13d0edc6.st1.iotda-device.cn-north-4.myhuaweicloud.com",
+    "port": 1883,
+    "protocol": "MQTT"
+}
+
+
+数据上报主题：
+$oc/devices/6860926432771f177b46e818_stmSF/sys/properties/report
+
+数据下发数据主题：
+$oc/devices/6860926432771f177b46e818_stmSF/sys/messages/down
+
+自定义主题格式：
+$iot/{device_id}/user/update
